@@ -1,5 +1,6 @@
-import { Button } from "components/Button/Button"
+// import { Button } from "components/Button/Button"
 import styles from "./Hero.module.scss"
+import { BiChevronRight } from "react-icons/bi";
 
 export const Hero = () => {
     return (
@@ -10,9 +11,9 @@ export const Hero = () => {
                 <p className={styles.hero_info}>
                     We provide world class financial assistance
                 </p>
-                <Button className={styles.hero_btn}>
-                    <p>Read More</p>
-                </Button>
+                <button className={styles.hero_btn}>
+                    <BiChevronRight size={18} /> Read More
+                </button>
             </section>
     )
 }
