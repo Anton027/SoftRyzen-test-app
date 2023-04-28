@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/SoftRyzen-test-app/static/css/main.1922117b.css",
-    "main.js": "/SoftRyzen-test-app/static/js/main.503fb0c2.js",
+    "main.css": "/SoftRyzen-test-app/static/css/main.cb3ba920.css",
+    "main.js": "/SoftRyzen-test-app/static/js/main.70a43312.js",
     "static/media/showcase.jpg": "/SoftRyzen-test-app/static/media/showcase.51cab55d982ce4bcedb5.jpg",
+    "static/media/people.jpg": "/SoftRyzen-test-app/static/media/people.f32f74cc55eb8b3518b7.jpg",
+    "static/media/blog@2x.webp": "/SoftRyzen-test-app/static/media/blog@2x.e7f5f55f5a25cf6fe4fd.webp",
+    "static/media/cases4.jpg": "/SoftRyzen-test-app/static/media/cases4.bc8713e3f48b0aee4eab.jpg",
+    "static/media/cases1.jpg": "/SoftRyzen-test-app/static/media/cases1.64dcfe4d42845316bcf2.jpg",
+    "static/media/cases7.jpg": "/SoftRyzen-test-app/static/media/cases7.0c2434529d95dc5103d7.jpg",
+    "static/media/cases3.jpg": "/SoftRyzen-test-app/static/media/cases3.3758803cff01fbec967c.jpg",
+    "static/media/cases5.jpg": "/SoftRyzen-test-app/static/media/cases5.936cb2fcbdc950fb047d.jpg",
+    "static/media/cases2.jpg": "/SoftRyzen-test-app/static/media/cases2.855b02a74ffed4538fb1.jpg",
     "index.html": "/SoftRyzen-test-app/index.html",
     "static/media/logo-book-open.svg": "/SoftRyzen-test-app/static/media/logo-book-open.7a350e7c6bbf7a8ae52dc4cea091956e.svg",
-    "main.1922117b.css.map": "/SoftRyzen-test-app/static/css/main.1922117b.css.map",
-    "main.503fb0c2.js.map": "/SoftRyzen-test-app/static/js/main.503fb0c2.js.map"
+    "main.cb3ba920.css.map": "/SoftRyzen-test-app/static/css/main.cb3ba920.css.map",
+    "main.70a43312.js.map": "/SoftRyzen-test-app/static/js/main.70a43312.js.map"
   },
   "entrypoints": [
-    "static/css/main.1922117b.css",
-    "static/js/main.503fb0c2.js"
+    "static/css/main.cb3ba920.css",
+    "static/js/main.70a43312.js"
   ]
 }
