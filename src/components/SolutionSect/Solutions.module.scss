@@ -1,6 +1,25 @@
+.solutions{
+    @media screen and (min-width:768px) {
+        display: flex;
+    }
+}
 .solution_img{
+    background-image: url(../../images/home/people.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 320px;
+    min-height: 220px;
     max-width: 320px;
     max-height: 220px;
+
+    @media screen and (min-width:768px){
+        min-height: 564px;
+        min-width: 368px;
+    }
+    @media screen and (min-width:1360px) {
+        min-height: 435px;
+        min-width: 670px;
+    }
 }
 .solutions_list{
     background: #28A745;
@@ -9,6 +28,19 @@
     padding-right: 20px;
     padding-top: 79px;
     padding-bottom: 79px;
+
+    @media screen and (min-width:768px) {
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 62px;
+        padding-bottom: 62px;
+    }
+        @media screen and (min-width:1360px) {
+            padding-left: 20px;
+            padding-right: 28px;
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
 }
 .solutions_list_item{
     padding-bottom: 24px;
@@ -22,16 +54,26 @@
     padding-bottom: 0px;
 }
 .solution_info{
-
-
-    font-weight: 400;
     font-size: 16px;
     line-height: 22px;
+    
+    @media screen and (min-width:768px){
+        font-size: 18px;
+        line-height: 25px;
+    }
 }
 .solution_title{
-    font-weight: 400;
+    
     font-size: 32px;
     line-height: 44px;
+    @media screen and (min-width:768px) {
+        font-size: 40px;
+        line-height: 48px;
+        max-width: 280px;
+    }
+        @media screen and (min-width:1360px){
+            min-width: 600px;
+        }
 }
 .solution_btn{
 

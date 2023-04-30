@@ -1,13 +1,28 @@
 .header{
     position: fixed;
     display: flex;
-    margin-left: 24px;
-    margin-top: 22px;
+    padding-left: 24px;
+    padding-top: 22px;
+
+    @media screen and (min-width:768px) {
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 0px;
+    }
+        @media screen and (min-width:1360px){
+            padding-left: 28px;
+            padding-right: 28px;
+        }
 }
 .nav{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+
+    @media screen and (min-width:768px){
+        align-items: flex-start;
+    }
+
 }
 .logo{
     display: inline-flex;
@@ -16,6 +31,17 @@
     line-height: 38px;
 
     margin-bottom: 16px;
+
+    @media screen and (min-width:768px){
+        margin-bottom: 0px;
+        padding-top: 23px;
+
+        font-size: 35px;
+        line-height: 48px;
+    }
+    @media screen and (min-width:1360px){
+        padding-top: 32px;
+    }
 }
 .logo_name{
     color: #28A745;
@@ -28,6 +54,7 @@
 
     padding-right: 8px;
 }
+
 .list{
     display: flex;
     justify-content: space-between;
@@ -36,6 +63,18 @@
     font-size: 16px;
     line-height: 22px;
     row-gap: 12px;
+
+    @media screen and (min-width:768px){
+        margin-left: 167px;
+        padding-top: 28px;
+
+        font-size: 18px;
+        line-height: 25px;
+    }
+        @media screen and (min-width:1360px){
+            margin-left: 750px;
+            padding-top: 48px;
+        }
 }
 .list_item:not(:last-child){
     padding-right: 12px;

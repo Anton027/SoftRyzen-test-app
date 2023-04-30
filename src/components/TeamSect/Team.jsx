@@ -1,8 +1,6 @@
 import styles from "./Team.module.scss"
 import person1 from "../../images/team/person1.jpg"
-
 import person2 from "../../images/team/person2.jpg"
-
 import person3 from "../../images/team/person3.jpg" 
 
 export const Team = () => {

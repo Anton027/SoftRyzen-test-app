@@ -1,10 +1,10 @@
 import styles from "./Solutions.module.scss"
-import people from "../../images/home/people.jpg"
+// import people from "../../images/home/people.webp"
 
 export const Solutions = () => {
     return (
-        <section>
-            <img className={styles.solution_img} src={people} alt="people" />
+        <section className={styles.solutions}>
+            <div className={styles.solution_img}></div>
             <ul className={styles.solutions_list}>
                 <li className={styles.solutions_list_item}>
                     <p className={styles.solution_info}>

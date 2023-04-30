@@ -1,6 +1,14 @@
 .team {
     padding: 72px 20px 50px 20px;
     background-color: #fff;
+
+    @media screen and (min-width:768px){
+        padding: 50px 32px 40px 32px;
+    }
+        @media screen and (min-width:768px){
+            padding: 80px 28px 88px 28px;
+        }
+
 }
 .item_info {
     font-style: normal;
@@ -10,6 +18,11 @@
     text-align: center;
 
     color: #333333;
+
+    @media screen and (min-width:768px) {
+        font-size: 18px;
+        line-height: 25px;
+    }
 }
 
 .item_title {
@@ -18,11 +31,25 @@
     text-align: center;
 
     color: #333333;
+    @media screen and (min-width:768px) {
+        font-size: 40px;
+        line-height: 54px;
+    }
 }
 
 .gallery_list {
     display: grid;
     gap: 30px;
+
+    @media screen and (min-width:768px) {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 18px;
+        grid-row-gap: 0px;
+    }
+        @media screen and (min-width:1360px){
+            grid-column-gap: 20px;
+        }
 }
 
 .gallery_list_img {
@@ -30,6 +57,16 @@
     max-width: 280px;
 
     margin-bottom: 16px;
+
+    @media screen and (min-width:768px) {
+            max-height: 148px;
+            min-width: 223px;
+            max-width: 223px;
+    }
+    @media screen and (min-width:1360px){
+        min-width: 422px;
+        min-height: 287px;
+    }
 }
 
 .cases_item:nth-child(1) {
@@ -45,7 +82,6 @@
 }
 
 .team_name{
-    font-weight: 400;
         font-size: 20px;
         line-height: 27px;
         text-align: center;
@@ -53,6 +89,10 @@
         color: #333333;
 
     margin-bottom: 8px;
+    @media screen and (min-width:768px){
+        font-size: 32px;
+        line-height: 32px;
+    }
 }
 .team_position{
     font-weight: 400;
@@ -60,4 +100,9 @@
         line-height: 22px;
     text-align: center;
     color: #333333;
+
+    @media screen and (min-width:768px){
+        font-size: 18px;
+            line-height: 25px;
+    }
 }

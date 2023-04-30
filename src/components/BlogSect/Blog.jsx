@@ -1,10 +1,10 @@
 import styles from "./Blog.module.scss"
-import blog from "../../images/home/blog@2x.webp"
+
 
 export const Blog = () => {
     return (
-        <section>
-            <img className={styles.blog_img} src={blog} alt="blog" />
+        <section className={styles.blog}>
+            <div className={styles.blog_img}></div>
             <ul className={styles.blog_list}>
                 <li className={styles.blog_list_item}>
                     <p className={styles.blog_info}>
