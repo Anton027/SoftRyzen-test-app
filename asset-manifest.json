@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/SoftRyzen-test-app/static/css/main.1368023e.css",
-    "main.js": "/SoftRyzen-test-app/static/js/main.6f481e17.js",
+    "main.css": "/SoftRyzen-test-app/static/css/main.704e85fe.css",
+    "main.js": "/SoftRyzen-test-app/static/js/main.8f8c4d49.js",
     "static/media/showcase.jpg": "/SoftRyzen-test-app/static/media/showcase.51cab55d982ce4bcedb5.jpg",
     "static/media/people.jpg": "/SoftRyzen-test-app/static/media/people.f32f74cc55eb8b3518b7.jpg",
-    "static/media/blog@2x.webp": "/SoftRyzen-test-app/static/media/blog@2x.e7f5f55f5a25cf6fe4fd.webp",
     "static/media/cases4.jpg": "/SoftRyzen-test-app/static/media/cases4.bc8713e3f48b0aee4eab.jpg",
+    "static/media/blog.jpg": "/SoftRyzen-test-app/static/media/blog.7a77e4040b289e838659.jpg",
     "static/media/person1.jpg": "/SoftRyzen-test-app/static/media/person1.fd246fc517ebc04c1f67.jpg",
     "static/media/cases1.jpg": "/SoftRyzen-test-app/static/media/cases1.64dcfe4d42845316bcf2.jpg",
     "static/media/cases7.jpg": "/SoftRyzen-test-app/static/media/cases7.0c2434529d95dc5103d7.jpg",
@@ -21,11 +21,11 @@
     "static/media/you.svg": "/SoftRyzen-test-app/static/media/you.542b7e2833a9f77d921b16adcfbcccfb.svg",
     "static/media/link.svg": "/SoftRyzen-test-app/static/media/link.e0ecfa0bf8b08ddad4325933bf6d940e.svg",
     "static/media/facebook.svg": "/SoftRyzen-test-app/static/media/facebook.c94fbf617d44356bbcd7c11074170de0.svg",
-    "main.1368023e.css.map": "/SoftRyzen-test-app/static/css/main.1368023e.css.map",
-    "main.6f481e17.js.map": "/SoftRyzen-test-app/static/js/main.6f481e17.js.map"
+    "main.704e85fe.css.map": "/SoftRyzen-test-app/static/css/main.704e85fe.css.map",
+    "main.8f8c4d49.js.map": "/SoftRyzen-test-app/static/js/main.8f8c4d49.js.map"
   },
   "entrypoints": [
-    "static/css/main.1368023e.css",
-    "static/js/main.6f481e17.js"
+    "static/css/main.704e85fe.css",
+    "static/js/main.8f8c4d49.js"
   ]
 }
