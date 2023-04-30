@@ -24,6 +24,14 @@
     }
 
 }
+.wrap_logo{
+    @media screen and (min-width:768px) {
+            :hover,
+            :focus {
+                transform: scale(1.08);
+            }
+    }
+}
 .logo{
     display: inline-flex;
     font-weight: 400;
@@ -38,10 +46,15 @@
 
         font-size: 35px;
         line-height: 48px;
+            :hover,
+            :focus {
+                transform: scale(1.1);
+            }
     }
     @media screen and (min-width:1360px){
         padding-top: 32px;
     }
+
 }
 .logo_name{
     color: #28A745;
@@ -78,4 +91,15 @@
 }
 .list_item:not(:last-child){
     padding-right: 12px;
+}
+.list_link{
+    @media screen and (min-width:768px) {
+        padding-bottom: 8px;
+    }
+}
+.list_link:hover,.list_link:focus{
+    @media screen and (min-width:768px) {
+        border-bottom: 4px solid #28A745;
+    }
+    border-bottom: 3px solid #28A745;
 }

@@ -1,4 +1,4 @@
-Тестове завдання FrontEnd
+https://softryzentestapp.netlify.app Тестове завдання FrontEnd
 
 Макет: https://www.figma.com/file/pO5RLY8PIMn5u2bERJ6VK9/Land?node-id=3725%3A180
 Критерії виконання: Верстка фіксована в рх. Верстка семантична (HTML5) та

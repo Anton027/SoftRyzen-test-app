@@ -14,7 +14,7 @@
         @media screen and (min-width:768px){
             font-size: 40px;
             line-height: 54px;
-            
+
             margin-bottom: 24px;
         }
 }
@@ -62,6 +62,13 @@
     border-radius: 5px;
     max-width: 144px;
     max-height: 50px;
+}
+.callback_btn:hover,
+.callback_btn:focus {
+
+
+        background-color: rgba(40, 167, 69, 0.7);
+
 }
 .input{
     margin-bottom: 16px;

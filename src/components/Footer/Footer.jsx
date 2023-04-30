@@ -9,16 +9,28 @@ export const Footer = () => {
         <footer className={styles.footer}>
             <ul className={styles.footer_list}>
                 <li>
-                    <img src={facebook} alt="facebook" />
+                    <a href="/" className={styles.footer_icon}>
+                        <img src={facebook} alt="facebook" />
+                    </a>
+                    
                 </li>
                 <li>
-                    <img src={twit} alt="twit" />
+                    <a href="/" className={styles.footer_icon}>
+                        <img src={twit} alt="twit"/>
+                    </a>
+                    
                 </li>
                 <li>
-                    <img src={you} alt="you" />
+                    <a href="/" className={styles.footer_icon}>
+                        <img src={you} alt="you" />
+                    </a>
+                    
                 </li>
                 <li>
-                    <img src={link} alt="link" />
+                    <a href="/" className={styles.footer_icon}>
+                        <img src={link} alt="link" />
+                    </a>
+                    
                 </li>
             </ul>
             <p className={styles.copyright}>
