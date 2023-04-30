@@ -1,23 +1,31 @@
 {
   "files": {
-    "main.css": "/SoftRyzen-test-app/static/css/main.cb3ba920.css",
-    "main.js": "/SoftRyzen-test-app/static/js/main.70a43312.js",
+    "main.css": "/SoftRyzen-test-app/static/css/main.1368023e.css",
+    "main.js": "/SoftRyzen-test-app/static/js/main.6f481e17.js",
     "static/media/showcase.jpg": "/SoftRyzen-test-app/static/media/showcase.51cab55d982ce4bcedb5.jpg",
     "static/media/people.jpg": "/SoftRyzen-test-app/static/media/people.f32f74cc55eb8b3518b7.jpg",
     "static/media/blog@2x.webp": "/SoftRyzen-test-app/static/media/blog@2x.e7f5f55f5a25cf6fe4fd.webp",
     "static/media/cases4.jpg": "/SoftRyzen-test-app/static/media/cases4.bc8713e3f48b0aee4eab.jpg",
+    "static/media/person1.jpg": "/SoftRyzen-test-app/static/media/person1.fd246fc517ebc04c1f67.jpg",
     "static/media/cases1.jpg": "/SoftRyzen-test-app/static/media/cases1.64dcfe4d42845316bcf2.jpg",
     "static/media/cases7.jpg": "/SoftRyzen-test-app/static/media/cases7.0c2434529d95dc5103d7.jpg",
+    "static/media/contact.jpg": "/SoftRyzen-test-app/static/media/contact.df3181530910b96adc57.jpg",
+    "static/media/person2.jpg": "/SoftRyzen-test-app/static/media/person2.6d1f75facd2adf912ada.jpg",
     "static/media/cases3.jpg": "/SoftRyzen-test-app/static/media/cases3.3758803cff01fbec967c.jpg",
+    "static/media/person3.jpg": "/SoftRyzen-test-app/static/media/person3.9f444ad1693a0e346d5f.jpg",
     "static/media/cases5.jpg": "/SoftRyzen-test-app/static/media/cases5.936cb2fcbdc950fb047d.jpg",
     "static/media/cases2.jpg": "/SoftRyzen-test-app/static/media/cases2.855b02a74ffed4538fb1.jpg",
+    "static/media/twit.svg": "/SoftRyzen-test-app/static/media/twit.e455471bb1c97dccc86f2812e485d481.svg",
     "index.html": "/SoftRyzen-test-app/index.html",
     "static/media/logo-book-open.svg": "/SoftRyzen-test-app/static/media/logo-book-open.7a350e7c6bbf7a8ae52dc4cea091956e.svg",
-    "main.cb3ba920.css.map": "/SoftRyzen-test-app/static/css/main.cb3ba920.css.map",
-    "main.70a43312.js.map": "/SoftRyzen-test-app/static/js/main.70a43312.js.map"
+    "static/media/you.svg": "/SoftRyzen-test-app/static/media/you.542b7e2833a9f77d921b16adcfbcccfb.svg",
+    "static/media/link.svg": "/SoftRyzen-test-app/static/media/link.e0ecfa0bf8b08ddad4325933bf6d940e.svg",
+    "static/media/facebook.svg": "/SoftRyzen-test-app/static/media/facebook.c94fbf617d44356bbcd7c11074170de0.svg",
+    "main.1368023e.css.map": "/SoftRyzen-test-app/static/css/main.1368023e.css.map",
+    "main.6f481e17.js.map": "/SoftRyzen-test-app/static/js/main.6f481e17.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb3ba920.css",
-    "static/js/main.70a43312.js"
+    "static/css/main.1368023e.css",
+    "static/js/main.6f481e17.js"
   ]
 }
