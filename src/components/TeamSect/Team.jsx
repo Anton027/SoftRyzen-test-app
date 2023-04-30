@@ -1,4 +1,9 @@
 import styles from "./Team.module.scss"
+import person1 from "../../images/team/person1.jpg"
+
+import person2 from "../../images/team/person2.jpg"
+
+import person3 from "../../images/team/person3.jpg" 
 
 export const Team = () => {
     return (
@@ -25,34 +30,34 @@ export const Team = () => {
             <ul className={styles.gallery_list}>
                 <li>
                     <img className={styles.gallery_list_img} 
-                    src=""  
-                    alt="cases1" />
-                    <p>
+                    src={person1}  
+                    alt="person1" />
+                    <p className={styles.team_name}>
                         John Doe
                     </p>
-                    <p>
+                    <p className={styles.team_position}>
                         President
                     </p>
                 </li>
                 <li>
                     <img className={styles.gallery_list_img} 
-                    src="" 
-                    alt="cases3" />
-                    <p>
+                    src={person2} 
+                    alt="person2" />
+                    <p className={styles.team_name}>
                         Jane Doe
                     </p>
-                    <p>
+                    <p className={styles.team_position}>
                         Vice President
                     </p>
                 </li>
                 <li>
                     <img className={styles.gallery_list_img} 
-                    src=""  
-                    alt="cases5" />
-                    <p>
+                    src={person3}  
+                    alt="person3" />
+                    <p className={styles.team_name}>
                         Steve Smith
                     </p>
-                    <p>
+                    <p className={styles.team_position}>
                         Marketing Head
                     </p>
                 </li>

@@ -10,10 +10,13 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-style: normal;
-    color: #FFFFFF;
+    
+    font-weight: 400;
+    
+    font-family: 'Open Sans';
 
     background-color: #333333;
-    font-family: 'Open Sans';
+    color: #FFFFFF;
   }
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
