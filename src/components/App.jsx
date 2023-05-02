@@ -5,14 +5,14 @@ import { Footer } from "./Footer/Footer";
 import { GlobalStyle } from "./GlobalStyle";
 import { Header } from "./Header/Header";
 import { Hero } from "./Hero/Hero";
-import SmoothScroll from "./SmoothScroll/SmoothScroll";
+
 import { Solutions } from "./SolutionSect/Solutions";
 import { Team } from "./TeamSect/Team";
 
 export const App = () => {
   return (
     <>
-      {/* <SmoothScroll> */}
+   
         <Header />
         <Hero />
         <Solutions />
@@ -21,7 +21,6 @@ export const App = () => {
         <Team />
         <Callback />
         <Footer />
-      {/* </SmoothScroll> */}
 
       <GlobalStyle />
     </>
