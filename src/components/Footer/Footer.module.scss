@@ -26,8 +26,10 @@
     gap: 25px;
     margin-bottom: 12px;
 }
-
+.footer_icon{
+    fill: inherit;
+}
 .footer_icon:hover,.footer_icon:focus{
     cursor: pointer;
-    color: #28A745;
+    fill: #28A745;
 }

@@ -1,9 +1,20 @@
 import styles from "./Header.module.scss"
 import logo from "../../images/logo-book-open.svg"
+import { useState } from "react"
 
 export const Header = () => {
+    const [color, setColor] = useState(false);
+    const changeColor = () => {
+        if (window.scrollY >= 120) {
+            setColor(true)
+        } else {
+            setColor(false)
+        }
+    }
+
+    window.addEventListener('scroll', changeColor)
     return (
-        <header className={styles.header}>
+        <header className={color ? styles.header_bg : styles.header}>
             <nav className={styles.nav}>
                 <div className={styles.wrap_logo}>
                     <a href="/" className={styles.logo}>

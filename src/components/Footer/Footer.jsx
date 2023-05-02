@@ -9,8 +9,12 @@ export const Footer = () => {
         <footer className={styles.footer}>
             <ul className={styles.footer_list}>
                 <li>
-                    <a href="/" className={styles.footer_icon}>
-                        <img src={facebook} alt="facebook" />
+                    <a href="/">
+                        <img
+                            className={styles.footer_icon}
+                            src={facebook}
+                            alt="facebook"
+                        />
                     </a>
                     
                 </li>

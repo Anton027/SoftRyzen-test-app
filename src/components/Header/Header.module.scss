@@ -1,18 +1,51 @@
 .header{
     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+
     display: flex;
     padding-left: 24px;
-    padding-top: 22px;
+    padding-top: 12px;
+    padding-bottom: 6px;
 
     @media screen and (min-width:768px) {
         padding-left: 32px;
         padding-right: 32px;
         padding-top: 0px;
     }
-        @media screen and (min-width:1360px){
-            padding-left: 28px;
-            padding-right: 28px;
-        }
+    @media screen and (min-width:1360px){
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+
+}
+.header_bg{
+        position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            z-index: 1;
+        
+            display: flex;
+            padding-left: 24px;
+            padding-top: 12px;
+            padding-bottom: 6px;
+        
+            @media screen and (min-width:768px) {
+                padding-left: 32px;
+                padding-right: 32px;
+                padding-top: 0px;
+            }
+        
+            @media screen and (min-width:1360px) {
+                padding-left: 28px;
+                padding-right: 28px;
+            }
+    background-color: rgba($color: #000000, $alpha: 0.6);
 }
 .nav{
     display: flex;
@@ -25,11 +58,9 @@
 
 }
 .wrap_logo{
-    @media screen and (min-width:768px) {
-            :hover,
-            :focus {
-                transform: scale(1.08);
-            }
+    :hover,
+    :focus {
+        transform: scale(1.08);
     }
 }
 .logo{
@@ -42,17 +73,13 @@
 
     @media screen and (min-width:768px){
         margin-bottom: 0px;
-        padding-top: 23px;
+        padding-top: 12px;
 
         font-size: 35px;
         line-height: 48px;
-            :hover,
-            :focus {
-                transform: scale(1.1);
-            }
     }
     @media screen and (min-width:1360px){
-        padding-top: 32px;
+        padding-top: 12px;
     }
 
 }
@@ -78,15 +105,15 @@
     row-gap: 12px;
 
     @media screen and (min-width:768px){
-        margin-left: 167px;
-        padding-top: 28px;
+        margin-left: 147px;
+        padding-top: 18px;
 
         font-size: 18px;
         line-height: 25px;
     }
         @media screen and (min-width:1360px){
-            margin-left: 750px;
-            padding-top: 48px;
+            margin-left: 766px;
+            padding-top: 18px;
         }
 }
 .list_item:not(:last-child){
